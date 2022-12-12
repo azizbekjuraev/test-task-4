@@ -1,0 +1,101 @@
+1. Write a JavaScript program to display the current day and time in the following format.
+
+Sample Output : Today is : Tuesday. Current time is : 10 PM : 30 : 38
+
+
+2. Write a JavaScript function that reverse a number.
+
+Example x = 32243;
+
+Example Output = 34223
+
+
+3. Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen.
+
+Sample Output :
+"0 is even"
+"1 is odd"
+"2 is even"
+
+
+4. Write a JavaScript program to sort the items of an array.
+
+Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+
+Sample Output : -4, -3, 1, 2, 3, 5, 6, 7, 8
+
+
+5. Write a JavaScript program to find the most frequent item of an array.
+
+Sample array : var arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+
+Sample Output : a ( 5 times )
+
+6. Write a JavaScript function to split a string and convert it into an array of words.
+
+Test Data : "Robin Singh"
+Test Output : ["Robin", "Singh"]
+
+7. Write a JavaScript function to test whether a date is a weekend.
+
+Test Data : 'Dec 11, 2022'
+
+Test Output : "Weekend"
+
+
+8. Write a JavaScript function to generate a random integer.
+
+Test Data : 20, 1;
+
+Test Output: 15
+
+
+9. Write a JavaScript program to test the first character of a string is uppercase or not.
+
+
+10. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.
+
+Test Data = var library = [ 
+   {
+       author: 'Bill Gates',
+       title: 'The Road Ahead',
+       readingStatus: true
+   },
+   {
+       author: 'Steve Jobs',
+       title: 'Walter Isaacson',
+       readingStatus: true
+   },
+   {
+       author: 'Suzanne Collins',
+       title:  'Mockingjay: The Final Book of The Hunger Games', 
+       readingStatus: false
+   }
+];
+
+
+11. Write a JavaScript function to validate whether a given value type is boolean or not
+
+
+12. Write a JavaScript program to find all the index positions of a given word within a given string.
+
+Test Data: "The quick brown fox jumps over the lazy dog.", "the" 
+
+Test Output: [31]
+
+
+
+13. Write a JavaScript function to retrieve the value of a given property from all elements in an array.
+
+Sample array : [NaN, 0, 15, false, -22, '',undefined, 47, null]
+
+Sample result : [15, -22, 47]
+
+
+14. Write a JavaScript function to print all the methods in an JavaScript object. Go to the editor
+
+Test Data : Array;
+
+Test Output: ["length", "name", "arguments", "caller", "prototype", "isArray", "observe", "unobserve"]
+
+
