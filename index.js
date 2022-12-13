@@ -54,6 +54,34 @@ function frequentItem(nums) {
     )
     .pop();
 }
+
 console.log(`${frequentItem(arr2)} (5 times)`);
 
 // 6
+
+function stringToArr(s) {
+  return s.trim().split(" ");
+}
+
+console.log(stringToArr(`Robin Singh`));
+
+// 7
+
+function isWeekend(d) {
+  let date = new Date(d);
+  if (date.getDate() == 6 || date.getDay() == 0) {
+    console.log(`Weekend`);
+  } else {
+    console.log(`Not Weekend`);
+  }
+}
+
+console.log(isWeekend("Dec 11, 2022"));
+
+// 8
+
+function randomNum(n1, n2) {
+  return Math.floor(Math.random() * (n1 - n2));
+}
+
+console.log(randomNum(20, 1));
