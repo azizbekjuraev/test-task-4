@@ -30,3 +30,30 @@ for (let i = 0; i <= 15; i++) {
     console.log(`${i} is odd`);
   }
 }
+
+// 4
+let arr1 = [3, 8, 7, 6, 5, -4, 3, 2, 1];
+
+function sortArr(nums) {
+  nums.sort(function (a, b) {
+    return a - b;
+  });
+  console.log(nums);
+}
+sortArr(arr1);
+
+// 5
+
+let arr2 = [3, "a", "a", "a", 2, 3, "a", 3, "a", 2, 4, 9, 3];
+
+function frequentItem(nums) {
+  return nums
+    .sort(
+      (a, b) =>
+        nums.filter((v) => v === a).length - nums.filter((v) => v === b).length
+    )
+    .pop();
+}
+console.log(`${frequentItem(arr2)} (5 times)`);
+
+// 6
